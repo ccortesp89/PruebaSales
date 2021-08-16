@@ -1,6 +1,8 @@
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 myHeaders.append("Cookie", "f5avraaaaaaaaaaaaaaaa_session_=CKEMDKJFNPICHHCIPINCOJNPCIMPONDJGEHMJMODFEJIADCCMLGLEGJJNFIJKIEMELEDPBIMBBEGACFPKIKANFNACKOKOJEFFGKOCICIMLANOCMJOMPCDJMAOEKIMOJJ; BIGipServerPool-HDI-WSFS=3338774720.20480.0000");
+myHeaders.append('Access-Control-Allow-Origin', 'https://ccortesp89.github.io/PruebaSales/');
+myHeaders.append('Access-Control-Allow-Credentials', 'true');
 
 var raw = JSON.stringify({
   "oportunidadVenta": {
